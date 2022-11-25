@@ -3,9 +3,9 @@ Chris' Portfolios
 
 # Project Overview
 
-In this project, we'll predict future season stats for baseball players.  Specifically, we'll predict the wins above replacement (WAR) a player will generate next season.  We'll first download baseball season data using pybaseball and clean it.  We'll do feature selection using a sequential feature selector to identify the most promising predictors for machine learning.  We'll then train a ridge regression model to predict future season WAR.  We'll measure error and improve the model.
+In this project, I predict future season (next year) Wins Above Replacement (WAR) for baseball players using Python code.  I'll first download baseball season data using pybaseball and clean the data.  I'll do feature selection using a sequential feature selector to identify the most promising predictors for machine learning.  I'll then train a ridge regression model to predict future season WAR.  Finally I'll measure error and improve the model.
 
-At the end, you'll have a model that can predict future season WAR, along with next steps to improve the model.
+At the end, I'll have a model that can predict future season WAR, along with next steps to improve the model.
 
 **Project Steps**
 
@@ -17,11 +17,11 @@ At the end, you'll have a model that can predict future season WAR, along with n
 
 ## Code
 
-You can find the code for this project [here](https://github.com/dataquestio/project-walkthroughs/tree/master/baseball_games)
+You can find the code for this project [here](https://github.com/christian-dl/BaseballMLWINSABOVEREPLACEMENT)
 
 File overview:
 
-* `next_war.ipynb` - a Jupyter notebook that contains the code to predict next season WAR.
+* `MLRidgeRegression.ipynb` - a Jupyter notebook that contains the code to predict next season WAR.
 
 # Local Setup
 
@@ -39,4 +39,4 @@ To follow this project, please install the following locally:
 
 ## Data
 
-We'll download the data during this project, using the `pybaseball` package.
+I'll download the data during this project, using the `pybaseball` package.
