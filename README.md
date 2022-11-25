@@ -47,7 +47,11 @@ I'll download the data during this project, using the `pybaseball` package.
 The first model used 3 training sets using the first 5 years as test sets 2002-2006 to start the model. From the 2.76 root mean squared error the model is
 predicting better than a random guess.
 
-To imporve the prediction on the 2nd model, the algorithm is given the previous year's performance from a single player to predict the following year. The 2.67 root
-mean squared error is better than the first model.
+To imporve the prediction on the 2nd model, the algorithm is given the previous year's performance from a single player to predict the following year's performance. 
+The 2.67 root mean squared error is better than the first model.
+
+## Improvements to the model
+* Use Minor League data to predict rookie season
+* Find a way to adjust for injured players season since model only uses players with a minmum of 200 at bats
 
 
